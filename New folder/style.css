@@ -1,0 +1,416 @@
+
+.head img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+.head p{
+    text-align: center;
+    font-size: larger;
+}
+
+.head h1{
+    text-align: center;
+    font-family: verdana;
+}
+
+.film {
+    background-color: grey;
+    font-family: 'Courier New';
+    color: white;
+}
+
+.film h1{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.film p{
+    text-align: center;
+}
+
+
+
+.plot {
+    border: 2px solid black;
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+
+  .plot::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .plot img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+ 
+  .plot span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .plot p{
+    text-align: justify;
+    font-family: verdana;
+  }
+
+  .plot h3{
+    text-align: center;
+    font-family: verdana;
+  }
+  
+  .attraction {
+    border: 2px solid black;
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+ 
+  .attraction::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  .attraction img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+ 
+  .attraction span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .attraction p{
+    text-align: justify;
+    font-family: verdana;
+  }
+
+  .attraction h3{
+    text-align: center;
+    font-family: verdana;
+  }
+  
+
+  .theme {
+    border: 2px solid black;
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+ 
+  .theme::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  .theme img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+ 
+  .theme span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .theme p{
+    text-align: justify;
+    font-family: verdana;
+  }
+
+  .theme h3{
+    text-align: center;
+    font-family: verdana;
+  }
+
+  .acting {
+    border: 2px solid black;
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+ 
+  .acting::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  .acting img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+ 
+  .acting span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .acting p{
+    text-align: justify;
+    font-family: verdana;
+  }
+
+  .acting h3{
+    text-align: center;
+    font-family: verdana;
+  }
+
+  .dialogue {
+    border: 2px solid black;
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+ 
+  .dialogue::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  .dialogue img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+ 
+  .dialogue span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .dialogue p{
+    text-align: justify;
+    font-family: verdana;
+  }
+
+  .dialogue h3{
+    text-align: center;
+    font-family: verdana;
+  }
+
+  .cinematography {
+    border: 2px solid black;
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+ 
+  .cinematography::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  .cinematography img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+ 
+  .cinematography span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .cinematography p{
+    text-align: justify;
+    font-family: verdana;
+  }
+
+  .cinematography h3{
+    text-align: center;
+    font-family: verdana;
+  }
+
+  .editing {
+    border: 2px solid black;
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+ 
+  .editing::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  .editing img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+ 
+  .editing span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .editing p{
+    text-align: justify;
+    font-family: verdana;
+  }
+
+  .editing h3{
+    text-align: center;
+    font-family: verdana;
+  }
+
+  .soundtrack {
+    border: 2px solid black;
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+ 
+  .soundtrack::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  .soundtrack img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+ 
+  .soundtrack span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .soundtrack p{
+    text-align: justify;
+    font-family: verdana;
+  }
+
+  .soundtrack h3{
+    text-align: center;
+    font-family: verdana;
+  }
+
+  .directing {
+    border: 2px solid black;
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+ 
+  .directing::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  .directing img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+ 
+  .directing span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .directing p{
+    text-align: justify;
+    font-family: verdana;
+  }
+
+  .directing h3{
+    text-align: center;
+    font-family: verdana;
+  }
+
+  .it {
+    border: 2px solid black;
+    background-color: lightcyan;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+ 
+  .it::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  .it img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+ 
+  .it span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+
+  .it p{
+    text-align: justify;
+    font-family: verdana;
+  }
+
+  .it h3{
+    text-align: center;
+    font-family: verdana;
+  }
+
+
+
+  
+
+
+  
+  
+  
+  
+ 
